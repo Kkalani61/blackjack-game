@@ -1,5 +1,5 @@
-let firstNumber =3
-let secondNumber = 2
+let firstNumber =11
+let secondNumber = 10
 let total = firstNumber + secondNumber
 let hasBlackjack = false
 let isAlive = true
@@ -15,6 +15,6 @@ function startGame() {
         message = "You're out of the game!"
         isAlive = false
     }
+    document.getElementById('message-el').textContent = message
 }
-console.log(message)
-console.log(hasBlackjack)
+
