@@ -4,10 +4,12 @@
     </head>
     <body>
         <h1>Blackjack</h1>
-        <p id="message-el"> Want to play a round? </p>
+        <p id="message"> Want to play a round? </p>
         <button id='btn' onclick="startGame()"> START GAME </button>
-        <p> Cards: </p>
-        <p> Sum: </p>
+        <button id="btn-new-card" onclick='newCard()'> NEW CARD </button>
+        <p id="card"> Cards: </p>
+        <p id="sum"> Sum: </p>
+        <p id="player"> </p>
         <script src="index.js"></script>
     </body>
 </html>

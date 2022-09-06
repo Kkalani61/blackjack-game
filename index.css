@@ -15,7 +15,7 @@ h1 {
     font-style: italic
 }
 
-#btn {
+#btn, #btn-new-card {
     text-emphasis-color: #016f32;
     width: 150px;
     background-color: goldenrod;
@@ -24,4 +24,8 @@ h1 {
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    display: grid;
+    margin: auto;
+    margin-bottom: 4px;
+    
 }
